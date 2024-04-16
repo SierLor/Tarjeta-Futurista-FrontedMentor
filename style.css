@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2? family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+--Soft-blue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+--Very-dark-blue-main: hsl(217, 54%, 11%);
+--Very-dark-blue-card: hsl(216, 50%, 16%);
+--Very-dark-blue-line: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--Very-dark-blue-main);
+}
+
+.cardcontainer {
+    border-radius: 10px;
+    background-color: hsl(215, 32%, 27%);
+    width: 330px;
+    height: 590px;
+    margin: 65px auto 35px;
+    }
+
+.image a img{
+    display: block;
+    width: 280px;
+    padding-top: 25px;
+    margin: 40px auto 10px;
+    border-radius: 10px;
+    
+    }
+
+  
+
+.link {
+    display: block;
+    margin-left: 25px;
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+    
+}
+
+.link:hover {
+    color: var(--Cyan);
+}
+
+.parrafo {
+    font-size: 1rem;
+    line-height: 1.9rem;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 25px;
+    color: var(--Soft-blue);
+}
+
+.section__info {
+    margin-top: 20px;
+    display: flex;
+    
+   
+    }
+
+    .info__icon {
+        color: var(--Cyan);
+        font-weight: 600;
+    }
+
+    .section__info1{
+        margin-left: 25px;
+    }
+
+   .section__info2{
+    padding-left: 90px;
+    color: var(--Soft-blue);
+    font-size: 1.1rem;
+    font-weight: 400;
+   }
+    
+   
+   hr {
+     
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+  
+}
+
+.footer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.footer img {
+    width: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.footer span {
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-left: 10px;
+    color: var(--Soft-blue);
+}
+
+.footer a {
+    font-size: 1.1rem;
+    margin-left: 10px;
+    text-decoration: none;
+    color:var(--White);
+}
+
+.footer a:hover{
+    color: var(--Cyan);
+}
+   
+
+   
+   
